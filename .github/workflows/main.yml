@@ -10,12 +10,13 @@ env:
   PNPM_VERSION: 8.5.1
   PYTHON_VERSION: 3.10.13
   NODE_VERSION: 18
-  AZURE_RESOURCE_GROUP_NAME: "azure-ml-yolo"
+  AZURE_RESOURCE_GROUP_NAME: "azure-ml-totti555"
   AZURE_LOCATION: "northeurope"
-  AZURE_ML_WORKSPACE_NAME: "cats-dogs-yoli"
+  AZURE_ML_WORKSPACE_NAME: "cats-dogs-totti555"
   AZURE_WEBAPP_NAME: "cats-dogs-yoli"
   DELETE_WEBAPP: "true"
-  DOCKER_IMAGE_NAME: "guillaumechervetlunique/mlopspython"
+  DOCKER_IMAGE_NAME: "totti555/mlopspython"
+  DOCKER_WEBAPP_IMAGE_NAME: "totti555/mlopspython"
 
 permissions:
   id-token: write
